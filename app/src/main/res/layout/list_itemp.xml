@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="3dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:padding="3dp"
+    card_view:cardElevation="2dp"
+    card_view:cardMaxElevation="2dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#444545"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/namep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Nombre"
+            android:textColor="#F7FAF7"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tamano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="false"
+            android:padding="25dp"
+            android:text="Tamaño"
+            android:textColor="#FEFFFE"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="45dp"
+            android:text="Descripción"
+            android:textColor="#FEFFFE"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/pricep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="65dp"
+            android:text="Precio"
+            android:textColor="#FEFFFE"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/btnEditp"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginRight="2dp"
+            android:layout_toLeftOf="@+id/btnDeletep"
+            android:drawableLeft="@android:drawable/ic_menu_edit"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/btnDeletep"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@android:drawable/ic_delete"
+            android:padding="5dp" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+
